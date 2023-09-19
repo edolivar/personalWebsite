@@ -21,7 +21,7 @@ function Projects() {
       name: 'First Party Reselling Web Application',
       link: null,
       description:
-        'Participated in a six-week group project comprising 3 two-week sprints (with reviews).Functionality of the site allows users to post/view products, sort/filter listings by various metrics, and built-in contact system. All necessary data was stored in a SQL database with custom hooks to access required resources.The development of the website was driven by user stories and use case diagrams. Frontend was written in Javascript (React) and styled (CSS). The backend consisted of a Flask with a MongoDB database.',
+        'Participated in a six-week group project comprising 3 two-week sprints (with reviews). Functionality of the site allows users to post/view products, sort/filter listings by various metrics, and built-in contact system. All necessary data was stored in a SQL database with custom hooks to access required resources.The development of the website was driven by user stories and use case diagrams. Frontend was written in Javascript (React) and styled (CSS). The backend consisted of a Flask with a MongoDB database.',
       languages: ['JavaScript', 'Flask', 'MongoDB']
     }
   ]
