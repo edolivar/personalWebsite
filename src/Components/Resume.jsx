@@ -22,7 +22,7 @@ function Resume() {
         </div>
       </div>
       <div className="flex-col text-center">
-        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-600 sm:my-8" />
+        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded my-5 md:my-10  dark:bg-gray-600" />
         <div className="font-bold text-xl my-2">Skills</div>
         <div className="font-extralight my-2">
           Languages: JavaScript, Python, C, C++, C#, PostgreSQL, SQL, NoSQL, Bash
@@ -30,27 +30,27 @@ function Resume() {
         <div className="font-extralight my-2">
           Technologies: VIM, Git, React, HTML, CSS, Docker, Prisma, Flask, MongoDB, Node, Express
         </div>
-        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-600 sm:my-8" />
+        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded my-5 md:my-10 dark:bg-gray-600" />
         <div className="font-bold text-xl my-2">Education</div>
-        <div className="font-extralight my-2">
+        <div className="font-extralight my-2 mx-2">
           California State Polytechnic University: San Luis Obispo
         </div>
-        <div className="font-extralight my-2">Bachelor of Science in Computer Science</div>
-        <div className="font-extralight my-2">Major GPA: 3.4</div>
+        <div className="font-extralight my-2 mx-2">Bachelor of Science in Computer Science</div>
+        <div className="font-extralight my-2 mx-2">Major GPA: 3.4</div>
         <div className="font-extralight flex justify-center">
-          <div className="md:max-w-2xl max-w-sm  my-2 ">
+          <div className="md:max-w-2xl max-w-sm  my-2 mx-6">
             Notable Courses: Data Structures (Python) • Project-Based Object Oriented Programming
             and Design (Java) • Design and Analysis of Algorithms (Java) • Introduction to Data
             Science (Python) • Intro to Privacy • Intro to Distributed Computing • Theory of
             Computation 1
           </div>
         </div>
-        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-600 sm:my-8" />
+        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded my-5 md:my-10  dark:bg-gray-600" />
         <div className="font-bold text-xl my-2">Professional Experience</div>
-        <div className="font-light my-2">Raytheon – Software Engineer – C#, SQL</div>
+        <div className="font-light my-2 mx-6">Raytheon – Software Engineer – C#, SQL</div>
         <div className="font-extralight my-2">Jun 2022 – April 2023</div>
         <div className="font-extralight flex justify-center">
-          <div className="md:max-w-2xl max-w-sm  my-2 text-left">
+          <div className="md:max-w-2xl max-w-sm  my-2 text-left mx-6">
             <p>
               • Designed and implemented Online Transaction Processing for an existing project
               (RS-232 Analysis Tool Suite).
@@ -66,13 +66,13 @@ function Resume() {
             </p>
           </div>
         </div>
-        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-600 sm:my-8" />
+        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded my-5 md:my-10 dark:bg-gray-600" />
         <div className="font-bold text-xl my-2">Projects</div>
-        <div className="font-light my-2">
+        <div className="font-light my-2 mx-6">
           Spotify Media Player – JavaScript, React, Docker, PostgreSQL
         </div>
         <div className="font-extralight flex justify-center">
-          <div className="md:max-w-2xl max-w-sm  my-2 text-left">
+          <div className="md:max-w-2xl max-w-sm  my-2 text-left mx-6">
             <p>
               • Utilized Spotify API endpoints to develop a web application that offered real-time
               media control and utilized real-time user data to display the listeners top tracks.
@@ -88,11 +88,11 @@ function Resume() {
             </p>
           </div>
         </div>
-        <div className="font-light mt-6 mb-2">
+        <div className="font-light mt-6 mb-2 mx-6">
           College Quarter Planner Website – Javascript, Python, MongoDB
         </div>
         <div className="font-extralight flex justify-center">
-          <div className="md:max-w-2xl max-w-sm  my-2 text-left">
+          <div className="md:max-w-2xl max-w-sm  my-2 text-left mx-6">
             <p>
               • Designed a website that would allow students to plan their academic quarters. First
               iterations of the website were designed in Figma.
@@ -104,11 +104,11 @@ function Resume() {
             </p>
           </div>
         </div>
-        <div className="font-light mt-6 mb-2">
+        <div className="font-light mt-6 mb-2 mx-6">
           First Party Reselling Web Application – Javascript, Python, MongoDB
         </div>
         <div className="font-extralight flex justify-center">
-          <div className="md:max-w-2xl max-w-sm  my-2 text-left">
+          <div className="md:max-w-2xl max-w-sm  my-2 text-left mx-6">
             <p>
               • Participated in a six-week group project comprising 3 two-week sprints (with
               reviews).
@@ -125,7 +125,7 @@ function Resume() {
             </p>
           </div>
         </div>
-        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-600 sm:my-8" />
+        <hr className="w-60 h-1 mx-auto bg-gray-100 border-0 rounded my-5 md:my-10 dark:bg-gray-600" />
       </div>
     </>
   )

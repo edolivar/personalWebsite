@@ -11,8 +11,8 @@ function Home() {
           </h1>
         </div>
       </div>
-      <div className="mt-3 flex justify-center">
-        <p className="mb-4 text-gray-500 dark:text-gray-300 text-left max-w-sm  px-2 sm:max-w-2xl font-light">
+      <div className="mt-3 flex justify-center mt-5">
+        <p className="mb-4 text-gray-500 dark:text-gray-300 text-left max-w-sm  px-2 sm:max-w-2xl font-light mx-6 text-lg">
           Usually just working on some personal projects to learn about the new technologies that
           are coming out. Reformed JavaScript hater. Currently looking for employment. Bad habit of
           looking for green checkmark on stackoverflow.
