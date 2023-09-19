@@ -12,11 +12,13 @@ function Resume() {
         <div className="mx-2 text-center font-extralight ">edwinolivares123@gmail.com</div>
         <span className="invisible md:visible">|</span>
 
-        <div
-          href=" https://www.linkedin.com/in/edwin-jim-olivares-3914811a1"
-          className="mx-2 text-center font-extralight hover:underline"
-        >
-          https://www.linkedin.com/in/edwin-jim-olivares-3914811a1
+        <div className="mx-2 text-center font-extralight ">
+          <a
+            href=" https://www.linkedin.com/in/edwin-jim-olivares-3914811a1"
+            className="hover:underline"
+          >
+            https://www.linkedin.com/in/edwin-jim-olivares-3914811a1
+          </a>
         </div>
       </div>
       <div className="flex-col text-center">
