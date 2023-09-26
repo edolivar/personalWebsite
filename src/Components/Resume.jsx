@@ -10,8 +10,6 @@ function Resume() {
         <div className="mx-2 text-center font-extralight ">424.236.0184</div>
         <span className="invisible md:visible">|</span>
         <div className="mx-2 text-center font-extralight ">edwinolivares123@gmail.com</div>
-        <span className="invisible md:visible">|</span>
-
         <div className="mx-2 text-center font-extralight ">
           <a href=" https://www.linkedin.com/in/ejo-3914811a1" className="hover:underline"></a>
         </div>
