@@ -1,5 +1,5 @@
-import '../App.css'
-import { withRouter } from 'react-router-dom'
+import '../App.css';
+import { withRouter } from 'react-router-dom';
 
 function Projects() {
   const data = [
@@ -14,17 +14,17 @@ function Projects() {
       name: 'WeatherbyZIP',
       link: 'https://github.com/edolivar/weatherApp',
       description:
-        'Utilized geolocation of client to give them real-time data about the weather in the area. Website supported a five digit zip code with error checking for invalid zip codes.',
+        'Implemented geolocation functionality to provide real-time weather data to users based on their geographic location. The website seamlessly accommodates both geolocation-based weather updates and manual input of a five-digit zip code, with robust error handling to validate and handle any inaccuracies or invalid zip code entries. This feature ensures a comprehensive and accurate weather experience for all users, enhancing the usability and reliability of the platform.',
       languages: ['JavaScript', 'Express', 'React']
     },
     {
       name: 'First Party Reselling Web Application',
       link: null,
       description:
-        'Participated in a six-week group project comprising 3 two-week sprints (with reviews). Functionality of the site allows users to post/view products, sort/filter listings by various metrics, and built-in contact system. All necessary data was stored in a SQL database with custom hooks to access required resources.The development of the website was driven by user stories and use case diagrams. Frontend was written in Javascript (React) and styled (CSS). The backend consisted of a Flask with a MongoDB database.',
+        'Contributed to a six-week group project, organized into three two-week sprints, following a structured review process. The platform allows users to post and view products, offering sorting, filtering options, and an integrated contact system. Utilized a SQL database with custom hooks for efficient data access. Development driven by user stories and use case diagrams, with the frontend in JavaScript (React) and CSS, and the backend in Flask with MongoDB.',
       languages: ['JavaScript', 'Flask', 'MongoDB']
     }
-  ]
+  ];
 
   return (
     <>
@@ -57,16 +57,16 @@ function Projects() {
                       >
                         {e}
                       </span>
-                    )
+                    );
                   })}
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
     </>
-  )
+  );
 }
 
-export default withRouter(Projects)
+export default withRouter(Projects);
