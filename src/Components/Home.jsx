@@ -1,28 +1,28 @@
-import '../App.css'
-import { withRouter } from 'react-router-dom'
+import '../App.css';
+import { withRouter } from 'react-router-dom';
 
 function Home() {
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center bg-gray-950">
         <div className="w-max">
           <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl text-white font-bold">
             hi, my name is Edwin
           </h1>
         </div>
       </div>
-      <div className="mt-3 flex justify-center mt-5">
+      <div className="mt-3 flex justify-center mt-5 bg-gray-950">
         <p className="mb-4 text-gray-500 dark:text-gray-300 text-left max-w-sm  px-2 sm:max-w-2xl font-light mx-6 text-lg">
           Usually just working on some personal projects to learn about the new technologies that
           are coming out. Reformed JavaScript hater. Currently looking for employment. Bad habit of
           looking for green checkmark on stackoverflow.
         </p>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center bg-gray-950">
         <button
           className="mr-3"
           onClick={() => {
-            window.location = 'https://www.linkedin.com/in/edwin-jim-olivares-3914811a1/'
+            window.location = 'https://www.linkedin.com/in/edwin-jim-olivares-3914811a1/';
           }}
         >
           <svg
@@ -37,7 +37,7 @@ function Home() {
 
         <button
           onClick={() => {
-            window.location = 'https://github.com/edolivar'
+            window.location = 'https://github.com/edolivar';
           }}
         >
           <svg
@@ -51,6 +51,6 @@ function Home() {
         </button>
       </div>
     </>
-  )
+  );
 }
-export default withRouter(Home)
+export default withRouter(Home);
