@@ -1,19 +1,19 @@
-import '../App.css'
-import { withRouter } from 'react-router-dom'
-import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { useState } from 'react'
+import '../App.css';
+import { withRouter } from 'react-router-dom';
+import { Disclosure } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { useState } from 'react';
 
 function Dashboard({ history }) {
   const [navigation, setNav] = useState([
     { name: 'Home', href: '/', current: true },
     { name: 'Projects', href: '/Projects', current: false },
     { name: 'Resume', href: '/Resume', current: false }
-  ])
+  ]);
   function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
+    return classes.filter(Boolean).join(' ');
   }
-  console.log(navigation)
+  console.log(navigation);
 
   return (
     <Disclosure as="nav" className="bg-gray-950 sticky top-0">
@@ -21,7 +21,7 @@ function Dashboard({ history }) {
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <span className="font-bold">edwin olivares </span>
+              <a href="/">edwin olivares</a>
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -42,16 +42,16 @@ function Dashboard({ history }) {
                         key={item.name}
                         href={item.href}
                         onClick={() => {
-                          let res = []
+                          let res = [];
                           navigation.forEach((i) => {
                             if (item.href === i.href) {
-                              res.push({ name: i.name, href: i.href, current: true })
+                              res.push({ name: i.name, href: i.href, current: true });
                             } else {
-                              res.push({ name: i.name, href: i.href, current: false })
+                              res.push({ name: i.name, href: i.href, current: false });
                             }
-                          })
-                          setNav(res)
-                          history.push(item.href)
+                          });
+                          setNav(res);
+                          history.push(item.href);
                         }}
                         className={classNames(
                           item.current
@@ -78,16 +78,16 @@ function Dashboard({ history }) {
                   as="button"
                   href={item.href}
                   onClick={() => {
-                    let res = []
+                    let res = [];
                     navigation.forEach((i) => {
                       if (item.href === i.href) {
-                        res.push({ name: i.name, href: i.href, current: true })
+                        res.push({ name: i.name, href: i.href, current: true });
                       } else {
-                        res.push({ name: i.name, href: i.href, current: false })
+                        res.push({ name: i.name, href: i.href, current: false });
                       }
-                    })
-                    setNav(res)
-                    history.push(item.href)
+                    });
+                    setNav(res);
+                    history.push(item.href);
                   }}
                   className={classNames(
                     item.current
@@ -105,6 +105,6 @@ function Dashboard({ history }) {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
-export default withRouter(Dashboard)
+export default withRouter(Dashboard);
