@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 function Resume() {
   return (
     <>
-      <div className="bg-gray-900 text-white p-8">
+      <div className="bg-gray-950 text-white p-8">
         <div className="max-w-4xl mx-auto">
           <div className="mt-4">
             <p className="text-2xl font-bold">EDWIN OLIVARES</p>
