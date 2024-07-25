@@ -4,25 +4,32 @@ import { withRouter } from 'react-router-dom';
 function Projects() {
   const data = [
     {
-      name: 'Spotify Stats Tracker',
-      link: 'https://github.com/edolivar/Spotify-MediaPlayer',
+      name: 'BioVizit',
+      link: 'https://biovizit.webflow.io/',
       description:
-        'Utilized Spotify API endpoints to develop a web application that offered real-time media control and utilized real-time user data to display the listeners top tracks.The website displays the song information (song name, artist, album cover art) along with changing the background color of the site based on the primary colors detected in the album art.Implementation of the following development patterns: CRUD, RESTful API, hooks, and authorization tokens.',
-      languages: ['JavaScript', 'Express', 'Render', 'PostgreSQL']
+        'At Biovizit, I played a pivotal role in setting up the entire infrastructure for their product. I was responsible for designing and implementing a secure system for capturing user credentials and managing the onboarding process. Additionally, I developed the entire website to showcase and support their product, ensuring a seamless and user-friendly experience for new users.',
+      languages: ['JavaScript', 'MemberStack', 'Webflow']
     },
     {
-      name: 'WeatherbyZIP',
-      link: 'https://github.com/edolivar/weatherApp',
+      name: 'Aremes Fermentis',
+      link: 'https://aremesfermentis.com/',
       description:
-        'Implemented geolocation functionality to provide real-time weather data to users based on their geographic location. The website seamlessly accommodates both geolocation-based weather updates and manual input of a five-digit zip code, with robust error handling to validate and handle any inaccuracies or invalid zip code entries. This feature ensures a comprehensive and accurate weather experience for all users, enhancing the usability and reliability of the platform.',
-      languages: ['JavaScript', 'Express', 'React']
+        "A meticulously crafted redesign for a boutique skincare company's retail space. The revitalized aesthetic seamlessly blends elegance with functionality, creating an inviting environment that accentuates the brand's commitment to premium skincare.",
+      languages: ['Shopify']
     },
     {
-      name: 'First Party Reselling Web Application',
-      link: null,
+      name: 'Jamify',
+      link: 'https://jamify-95p0.onrender.com/',
       description:
-        'Contributed to a six-week group project, organized into three two-week sprints, following a structured review process. The platform allows users to post and view products, offering sorting, filtering options, and an integrated contact system. Utilized a SQL database with custom hooks for efficient data access. Development driven by user stories and use case diagrams, with the frontend in JavaScript (React) and CSS, and the backend in Flask with MongoDB.',
-      languages: ['JavaScript', 'Flask', 'MongoDB']
+        'Introducing Jamify, an innovative app revolutionizing the way you share and discover music with friends. Currently, in beta, Jamify offers a seamless platform for enhancing your music-sharing experience. Stay tuned for forthcoming features and enhancements as we continue to refine your music journey. Since it is on a free instance on render please reload the page after a minute or two !',
+      languages: ['JWT', 'React', 'Node', 'Primsa', 'Express']
+    },
+    {
+      name: 'Spotify Media Player',
+      link: 'https://spotify-mediaplayer-edolivar.onrender.com/',
+      description:
+        "Utilized Spotify API endpoints to craft a React application, enabling real-time media control and gathering user data for insightful analysis, such as showcasing top tracks and music genre preferences.\nIncorporated the primary color of the current track’s album art to create a distinct visual presentation for the user interface.\nEstablished a RESTful API to efficiently manage incoming requests and store essential data in a PostgreSQL database, effectively orchestrated with Prisma.\nImplemented a robust security protocol utilizing authentication and refresh tokens, adhering to industry standards. This ensured the utmost safety of users' sensitive data and enforced rate limiting to deter potential malicious usage.",
+      languages: ['JWT', 'React', 'Node', 'Primsa', 'Express']
     }
   ];
 
