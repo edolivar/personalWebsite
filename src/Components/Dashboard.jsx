@@ -10,9 +10,11 @@ function Dashboard({ history }) {
     { name: 'Projects', href: '/Projects', current: false },
     { name: 'Resume', href: '/Resume', current: false }
   ]);
+
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ');
   }
+
   console.log(navigation);
 
   return (
@@ -21,7 +23,9 @@ function Dashboard({ history }) {
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <a href="/">edwin olivares</a>
+              <span className="font-bold cursor-pointer" onClick={() => history.push('/')}>
+                edwin olivares
+              </span>
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -40,7 +44,6 @@ function Dashboard({ history }) {
                     {navigation.map((item) => (
                       <button
                         key={item.name}
-                        href={item.href}
                         onClick={() => {
                           let res = [];
                           navigation.forEach((i) => {
@@ -76,7 +79,6 @@ function Dashboard({ history }) {
                 <Disclosure.Button
                   key={item.name}
                   as="button"
-                  href={item.href}
                   onClick={() => {
                     let res = [];
                     navigation.forEach((i) => {
