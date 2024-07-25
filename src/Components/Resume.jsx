@@ -4,27 +4,27 @@ import { withRouter } from 'react-router-dom';
 function Resume() {
   return (
     <>
-      <div className="bg-gray-950 p-8">
+      <div className="bg-white p-8">
         <div className="max-w-4xl mx-auto">
           <div className="mt-4">
-            <p className="text-xl font-bold">EDWIN OLIVARES</p>
-            <p className="text-sm text-gray-600">
+            <p className="text-2xl font-bold">EDWIN OLIVARES</p>
+            <p className="text-sm text-black">
               Los Angeles, CA | 424.236.0184 |{' '}
-              <a href="http://www.edwinolivares.com" className="text-gray-600 hover:text-gray-300">
+              <a href="http://www.edwinolivares.com" className="text-black hover:underline">
                 www.edwinolivares.com
               </a>{' '}
               |{' '}
-              <a href="mailto:mail@edwinolivares.com" className="text-gray-600 hover:text-gray-300">
+              <a href="mailto:mail@edwinolivares.com" className="text-black hover:underline">
                 mail@edwinolivares.com
               </a>
             </p>
-            <h2 className="pt-10 text-2xl font-bold">Experience</h2>
-            <div className="mt-4">
+            <h2 className="pt-6 text-xl font-bold">experience</h2>
+            <div className="mt-2">
               <p className="font-bold">Secure Tech Solutions</p>
-              <p className="text-gray-600">
-                Oct. 2023 - Present Full Stack Developer - JavaScript, React, Node
+              <p className="text-black">
+                Oct. 2023 - Present Full Stack Developer - Ruby on Rails, PostgreSQL
               </p>
-              <ul className="list-disc list-inside ml-4">
+              <ul className="list-disc list-inside ml-4 text-black">
                 <li>
                   Spearheaded the development of a phishing training tool, significantly enhancing
                   cybersecurity training for client companies. The suite includes features for
@@ -44,12 +44,30 @@ function Resume() {
                 </li>
               </ul>
             </div>
-            <div className="mt-4">
+            <div className="mt-2">
+              <p className="font-bold">Secure Tech Solutions</p>
+              <p className="text-black">
+                Jun. 2024 - Jul. 2024 System Integration Engineer - Docker, MySQL
+              </p>
+              <ul className="list-disc list-inside ml-4 text-black">
+                <li>
+                  Oversaw and led the deployment of an asset management and customer support ticket
+                  system. Managed the configuration and setup of Snipe-IT for asset management and
+                  osTicket for customer support, optimizing workflows for efficiency.
+                </li>
+                <li>
+                  Responsibilities included configuring the infrastructure, setting up databases,
+                  and ensuring secure data handling. Provided training and support to the team,
+                  facilitating a smooth transition and enhancing overall operational effectiveness.
+                </li>
+              </ul>
+            </div>
+            <div className="mt-2">
               <p className="font-bold">Raytheon</p>
-              <p className="text-gray-600">
+              <p className="text-black">
                 Jan. 2023 - Jun. 2023 Software Engineer 1 - C#, SQL, .NET
               </p>
-              <ul className="list-disc list-inside ml-4">
+              <ul className="list-disc list-inside ml-4 text-black">
                 <li>
                   Led development of an Online Transaction Processing system for an existing tool
                   supporting multiple classified programs that utilize the RS-232 radar system with
@@ -67,12 +85,10 @@ function Resume() {
                 </li>
               </ul>
             </div>
-            <div className="mt-4">
+            <div className="mt-2">
               <p className="font-bold">Raytheon</p>
-              <p className="text-gray-600">
-                Jun. 2022 - Jan. 2023 Software Engineer Intern - DOORs
-              </p>
-              <ul className="list-disc list-inside ml-4">
+              <p className="text-black">Jun. 2022 - Jan. 2023 Software Engineer Intern - DOORs</p>
+              <ul className="list-disc list-inside ml-4 text-black">
                 <li>
                   Cross-checked program requirements from customer meetings with DOORs to ensure
                   accurate requirement identifiers and up-to-date descriptions.
@@ -83,13 +99,15 @@ function Resume() {
                 </li>
               </ul>
             </div>
-            <h2 className="pt-10 text-2xl font-bold">Personal Projects</h2>
-            <div className="mt-4">
+            <h2 className="pt-6 text-xl font-bold">projects</h2>
+            <div className="mt-2">
               <p className="font-bold">Spotify Media Player</p>
-              <ul className="list-disc list-inside ml-4">
+              <ul className="list-disc list-inside ml-4 text-black">
                 <li>
                   Developed a React-based music application utilizing the Spotify Developer API,
-                  enabling dynamic media control and a customized listening experience.
+                  enabling dynamic media control and a customized listening experience. Innovatively
+                  used the dominant colors from album artwork to dynamically adjust the user
+                  interface, enhancing user engagement.
                 </li>
                 <li>
                   Created a REST API to handle all incoming requests. Data required to create a
@@ -102,62 +120,72 @@ function Resume() {
                 </li>
               </ul>
             </div>
-            <h2 className="pt-10 text-2xl font-bold">Education</h2>
-            <div className="mt-4">
+            <h2 className="pt-6 text-xl font-bold">education</h2>
+            <div className="mt-2">
               <p className="font-bold">California State Polytechnic University: San Luis Obispo</p>
-              <p className="text-gray-600">June 2022 Bachelor of Science in Computer Science</p>
+              <p className="text-black">June 2022 Bachelor of Science in Computer Science</p>
             </div>
-            <div className="mt-10">
-              <h2 className="text-2xl font-bold mb-4">Skills</h2>
-              <ul className="grid grid-cols-2 gap-4">
+            <h2 className="pt-6 text-xl font-bold">skills</h2>
+            <div className="mt-2">
+              <ul className="grid grid-cols-3 gap-2 text-black">
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     JavaScript
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     Python
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     SQL
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
-                    PostgreSQL
-                  </span>
-                </li>
-                <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
-                    React
-                  </span>
-                </li>
-                <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     Node
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
+                    React
+                  </span>
+                </li>
+                <li>
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
+                    Ruby on Rails
+                  </span>
+                </li>
+                <li>
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
+                    Express
+                  </span>
+                </li>
+                <li>
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     Tailwind
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
-                    Primsa
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
+                    Prisma
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     MJML
                   </span>
                 </li>
                 <li>
-                  <span className="bg-gray-950 rounded-lg px-3 py-1 text-sm font-semibold">
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
                     Git
+                  </span>
+                </li>
+                <li>
+                  <span className="bg-gray-200 rounded-lg px-3 py-1 text-sm font-semibold">
+                    PostgreSQL
                   </span>
                 </li>
                 {/* Add more skills as needed */}
