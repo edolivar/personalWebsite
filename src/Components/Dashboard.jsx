@@ -8,7 +8,8 @@ function Dashboard({ history }) {
   const [navigation, setNav] = useState([
     { name: 'Home', href: '/', current: true },
     { name: 'Projects', href: '/Projects', current: false },
-    { name: 'Resume', href: '/Resume', current: false }
+    { name: 'Resume', href: '/Resume', current: false },
+    { name: 'Current Project', href: '/', current: false }
   ]);
 
   function classNames(...classes) {
