@@ -55,7 +55,13 @@ function Dashboard({ history }) {
                             }
                           });
                           setNav(res);
-                          history.push(item.href);
+
+                          // Check if the link is an external URL
+                          if (item.href.startsWith('http')) {
+                            window.location.href = item.href; // For external URLs
+                          } else {
+                            history.push(item.href); // For internal routes
+                          }
                         }}
                         className={classNames(
                           item.current
