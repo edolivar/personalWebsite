@@ -56,11 +56,11 @@ function Dashboard({ history }) {
                           });
                           setNav(res);
 
-                          // Check if the link is an external URL
-                          if (item.href.startsWith('http')) {
-                            window.location.href = item.href; // For external URLs
+                          // If the href starts with 'http' or 'https', open the external link
+                          if (item.href.startsWith('http') || item.href.startsWith('https')) {
+                            window.open(item.href, '_blank'); // Opens the link in a new tab
                           } else {
-                            history.push(item.href); // For internal routes
+                            history.push(item.href); // For internal links
                           }
                         }}
                         className={classNames(
