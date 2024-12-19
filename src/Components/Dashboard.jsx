@@ -9,7 +9,7 @@ function Dashboard({ history }) {
     { name: 'Home', href: '/', current: true },
     { name: 'Projects', href: '/Projects', current: false },
     { name: 'Resume', href: '/Resume', current: false },
-    { name: 'Current Project', href: 'https://securetechsolutions.biz', current: false }
+    { name: 'Current Project', href: 'https://personalwebsite-hce2.onrender.com/', current: false }
   ]);
 
   function classNames(...classes) {
