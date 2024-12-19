@@ -7,7 +7,7 @@ function Home() {
       <div className="flex items-center justify-center bg-gray-950">
         <div className="w-max">
           <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl text-white font-bold">
-            hi, my name is Edwin
+            hello, my name is Edwin
           </h1>
         </div>
       </div>
