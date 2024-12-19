@@ -96,7 +96,11 @@ function Dashboard({ history }) {
                       }
                     });
                     setNav(res);
-                    history.push(item.href);
+                    if (item.href.startsWith('http') || item.href.startsWith('https')) {
+                      window.open(item.href, '_blank'); // Opens the link in a new tab
+                    } else {
+                      history.push(item.href); // For internal links
+                    }
                   }}
                   className={classNames(
                     item.current
