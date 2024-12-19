@@ -98,7 +98,12 @@ export const Navbar = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <Link href="/">
-                    <Image src="/dark-logo.png" alt="" width={35} height={35} />
+                    <Image
+                      src="/edwin_icon.svg"
+                      alt=""
+                      width={35}
+                      height={35}
+                    />
                   </Link>
                 </div>
                 <div className="-mr-2">
@@ -143,18 +148,18 @@ export const Navbar = () => {
                   }
                   href="/projects"
                 >
-                  Projects
+                  Work+Projects
                 </Link>
 
                 <Link
                   className={
-                    pathname == "/resources"
+                    pathname == "/resume"
                       ? "text-base font-bold text-neutral-500 hover:text-neutral-900"
                       : "text-base font-medium text-neutral-500 hover:text-neutral-900"
                   }
-                  href="/resources"
+                  href="/resume"
                 >
-                  Resources
+                  Resume
                 </Link>
               </div>
             </div>
