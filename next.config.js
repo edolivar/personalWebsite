@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  distDir: "dist", // Specify the output directory for the build
+  output: "export", // Specify the output directory for the build
 };
 
 module.exports = nextConfig;
