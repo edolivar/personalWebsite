@@ -62,8 +62,8 @@ const SplashScreen = ({ finishLoading }) => {
         id="logo"
         src="/edwin_icon.svg"
         alt=""
-        width={84}
-        height={84}
+        width={80}
+        height={80}
         className="rounded"
       />
     </div>
