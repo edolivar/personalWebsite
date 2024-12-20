@@ -9,7 +9,11 @@ function Dashboard({ history }) {
     { name: 'Home', href: '/', current: true },
     { name: 'Projects', href: '/Projects', current: false },
     { name: 'Resume', href: '/Resume', current: false },
-    { name: 'Current Project', href: 'https://personalwebsite-hce2.onrender.com/', current: false }
+    {
+      name: 'Current Project',
+      href: 'https://personal-website-oqosos1bs-edwinolivares123-gmailcoms-projects.vercel.app/',
+      current: false
+    }
   ]);
 
   function classNames(...classes) {
