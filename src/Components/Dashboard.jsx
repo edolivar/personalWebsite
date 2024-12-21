@@ -11,7 +11,7 @@ function Dashboard({ history }) {
     { name: 'Resume', href: '/Resume', current: false },
     {
       name: 'Current Project',
-      href: 'https://personal-website-oqosos1bs-edwinolivares123-gmailcoms-projects.vercel.app/',
+      href: 'https://personal-website-theta-indol-19.vercel.app/',
       current: false
     }
   ]);
