@@ -27,18 +27,12 @@ export default function AboutPage() {
             <br />
             <p className="text-lg leading-7">
               I have a wide range of hobbies and passions that keep me busy.
-              From playing video games, basketball, and spending time outdoors
-              with my siblings to making YouTube videos, reading, traveling, and
-              watching basketball, I’m always seeking new experiences and
-              learning new things. I recently played in my first fantasy
-              football league and, while I ended up in last place, it was such a
-              fun and exciting experience! I’m also a huge fan of{" "}
-              <span className="italic">The Office</span>, which never fails to
-              make me laugh. I believe that you should{" "}
-              <span className="text-lg font-bold leading-7 text-stone-100">
-                never stop learning
-              </span>{" "}
-              and that&#39;s what I strive to do.
+              From playing video games, traveling, and spending time outdoors
+              with my siblings to playing pickup basketball, I’m always seeking
+              new experiences and learning new things. This year was the first
+              time I played in a fantasy football league and I came in last
+              place (drafted CMC first)! I’m also a huge fan of{" "}
+              <span className="italic">The Office</span>.
             </p>
             <br />
           </div>
