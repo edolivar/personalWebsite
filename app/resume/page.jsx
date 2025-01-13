@@ -9,7 +9,7 @@ export default function ResourcesPage() {
             EDWIN OLIVARES
           </h1>
           <p className="text-sm text-neutral-300">
-            Los Angeles, CA | 424.236.0184 |{" "}
+            Los Angeles, CA |{" "}
             <a
               href="http://www.edwinolivares.com"
               className="text-neutral-300 hover:underline"
