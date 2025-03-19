@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PiFlowerTulip } from "react-icons/pi";
 import { MdOutlineBiotech } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
+import { MdOutlinePlumbing } from "react-icons/md";
 
 export default function ProjectsPage() {
   return (
@@ -53,6 +54,20 @@ export default function ProjectsPage() {
                   />
                   <h1 className=" font-semibold text-neutral-500 dark:text-neutral-300">
                     Secure Tech Solutions
+                  </h1>
+                </div>
+              </div>
+            </Link>
+            <Link href="https://so-plumbing-inc.vercel.app/" target="_blank">
+              <div className="rounded-md bg-neutral-200 p-4 hover:bg-neutral-300 dark:bg-neutral-700 dark:hover:bg-neutral-600 ">
+                <div className="flex flex-row items-center justify-center space-x-2">
+                  {" "}
+                  <MdOutlinePlumbing
+                    size={30}
+                    className="text-neutral-500 dark:text-neutral-300"
+                  />
+                  <h1 className=" font-semibold text-neutral-500 dark:text-neutral-300">
+                    SO Plumbing Inc.
                   </h1>
                 </div>
               </div>
