@@ -13,8 +13,7 @@ export default function Home() {
         </p>
         <p className="text-lg  text-neutral-300  md:text-xl">
           Usually just working on some personal projects to learn about the new
-          technologies that are coming out. Reformed JavaScript hater. Currently
-          looking for employment. Bad habit of looking for green checkmark on
+          technologies that are coming out. Reformed JavaScript hater. Bad habit of looking for green checkmark on
           stackoverflow.
         </p>
       </div>
